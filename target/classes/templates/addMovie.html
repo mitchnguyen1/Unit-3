@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="addMovie" method="post">
+    <label>Title:
+        <input type="text" name="title" placeholder="Title">
+    </label>
+    <label>Rating:
+        <input type="text" name="rating" placeholder="Maturity Rating">
+    </label>
+    <label>Genre:
+        <input type="text" name="genre" placeholder="Genre">
+    </label>
+
+    <button type="submit">Save</button>
+</form>
+
+<a th:href="@{/}">Home</a>
+</body>
+</html>

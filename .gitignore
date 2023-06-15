@@ -1,0 +1,3 @@
+/target
+/main/resources/hibernate.cfg.xml
+/main/resources/application.properties
